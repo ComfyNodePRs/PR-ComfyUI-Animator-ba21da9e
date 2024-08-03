@@ -55,3 +55,14 @@ pip install -r requirements.txt
 #!/bin/bash
 git pull
 pip install -r requirements.txt
+```
+Here are some important points:
+
+We're using MediaPipe for body pose estimation and facial landmark detection.
+The animation logic (animate method) is a placeholder. In a real implementation, you'd need to use a more sophisticated method like First Order Motion Model.
+The lighting application (apply_lighting method) is simplified. Real lighting would involve more complex 3D rendering techniques.
+For background removal, we're using a pre-trained DeepLabV3 model for semantic segmentation.
+
+To make this work with ComfyUI, you'll need to ensure that the input and output formats are compatible. ComfyUI typically works with PyTorch tensors, so you might need to convert between PIL Images, numpy arrays, and PyTorch tensors at various points in your pipeline.
+Also, note that this implementation assumes that driving_video is a list of frames. You might need to adjust this depending on how ComfyUI handles video input.
+Lastly, remember to add error handling, input validation, and performance optimizations. This implementation is a starting point and would need to be refined and tested thoroughly for production use.
