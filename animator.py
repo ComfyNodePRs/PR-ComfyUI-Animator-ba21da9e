@@ -111,6 +111,9 @@ class Animator:
         
         return (lit_output_tensor, greenscreen_output_tensor)
 
+    #=============================================================================================#
+    #
+    #=============================================================================================#
     # Helper methods
     def apply_motion(self, source_image, source_body, source_face, driving_body, driving_face):
         # Convert PIL Image to numpy array
