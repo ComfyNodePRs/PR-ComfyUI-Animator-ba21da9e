@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-animator"
+description = "This custom node for ComfyUI provides full-body animation capabilities, including facial rigging, various lighting styles, and green screen output."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=1.7.0", "numpy>=1.19.0", "Pillow>=8.0.0", "opencv-python>=4.5.0", "mediapipe>=0.8.9"]
+
+[project.urls]
+Repository = "https://github.com/SEkINVR/ComfyUI-Animator"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Animator"
+Icon = ""
