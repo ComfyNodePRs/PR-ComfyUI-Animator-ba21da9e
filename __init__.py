@@ -1,9 +1,9 @@
-from .animator import FullBodyAnimator
+from .animator import Animator
 
 NODE_CLASS_MAPPINGS = {
-    "FullBodyAnimator": FullBodyAnimator
+    "Animator": Animator
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "FullBodyAnimator": "Full Body Animator"
+    "Animator": "Animator"
 }
