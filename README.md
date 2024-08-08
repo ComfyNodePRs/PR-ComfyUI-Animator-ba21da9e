@@ -14,7 +14,7 @@ This custom node for ComfyUI provides full-body animation capabilities, includin
 
 1. Clone this repository into your ComfyUI custom nodes folder:
    ```
-   https://github.com/SEkINVR/ComfyUI-Animator.git
+   git clone https://github.com/SEkINVR/ComfyUI-Animator.git
    ```
    
 2. Install the required dependencies:
